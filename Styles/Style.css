@@ -1,0 +1,85 @@
+/* Google font link (Mulish font) */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Style for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Common Style */
+
+/* var for color */
+:root{
+    --black: #131318;
+    --orange: #FF5400;
+    --paragraph_black: rgba(19, 19, 24, 0.70);
+    --bluish_gray: #5A5A5D;
+}
+
+
+/* Header Style */
+
+header{
+    padding: 3rem 8rem 5rem;
+}
+
+/* Navbar Style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav .title h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--black);
+}
+
+nav .title span{
+    color: var(--orange);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px;
+    transition: all 0.7s;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--bluish_gray);
+    transition: all 0.7s;
+}
+
+nav li:first-child a{
+    color: var(--orange);
+}
+
+nav li:hover{
+    background-color: var(--orange);    
+}
+
+nav li:hover a{
+    color: white;
+}
+
