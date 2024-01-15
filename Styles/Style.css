@@ -175,6 +175,41 @@ select {
     nav .title i {
         display: inline-block;
     }
+    .travel-info {
+        background-position: center center;
+        padding: 2rem 1rem;
+    }
+    
+    .travel-info h1 {
+        font-size: 1.3rem;
+    }
+    
+    .travel-info p {
+        width: 100%;
+        margin: 1rem auto 2rem;
+    }
+    
+    .travel-info .search-place {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .travel-info .search-place select {
+        padding: 1rem;
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .travel-info .search-place input {
+        padding: 1rem;
+        width: 80%;
+        font-size: 1rem;
+    }
+    
+    .travel-info .search-place button{
+        width: 90%;
+    }
 }
 
 
