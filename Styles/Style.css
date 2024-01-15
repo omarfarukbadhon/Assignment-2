@@ -17,6 +17,16 @@
     --orange: #FF5400;
     --paragraph_black: rgba(19, 19, 24, 0.70);
     --bluish_gray: #5A5A5D;
+    --font-weight800: 800;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: var(--orange);
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
 }
 
 
@@ -50,7 +60,7 @@ nav .title span {
     color: var(--orange);
 }
 
-nav .title i{
+nav .title i {
     display: none;
     font-size: 2rem;
     margin-left: 1.5rem;
@@ -89,6 +99,65 @@ nav li:hover a {
     color: white;
 }
 
+/* Style of Find Travel Info Section */
+
+.travel-info {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+    padding: 10rem 15rem;
+    border-radius: 16px;
+}
+
+.travel-info h1 {
+    font-size: 4rem;
+    color: white;
+    font-weight: var(--font-weight800);
+    text-align: center;
+}
+
+.travel-info p {
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: 1.5rem auto 3rem;
+    line-height: 1.5rem;
+}
+
+.travel-info .search-place {
+    display: flex;
+    gap: 1.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-info .search-place input,
+select {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: 22%;
+    font-size: 1.2rem;
+}
+
+.travel-info .search-place input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.travel-info .search-place button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
 /* Responsive for mobile devices */
 @media screen and (max-width: 600px) {
     header {
@@ -103,7 +172,7 @@ nav li:hover a {
         font-size: 1.3rem;
     }
 
-    nav .title i{
+    nav .title i {
         display: inline-block;
     }
 }
@@ -118,11 +187,11 @@ nav li:hover a {
     nav .title h2 {
         font-size: 1.8rem;
     }
-    
+
     nav ul {
         gap: 0rem;
     }
-    
+
     nav li {
         padding: 0.5rem 1.2rem;
     }
@@ -137,11 +206,11 @@ nav li:hover a {
     nav .title h2 {
         font-size: 2rem;
     }
-    
+
     nav ul {
         gap: 0rem;
     }
-    
+
     nav li {
         padding: 0.5rem 1.2rem;
     }
