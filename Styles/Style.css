@@ -230,6 +230,34 @@ select {
     nav li {
         padding: 0.5rem 1.2rem;
     }
+    .travel-info {
+        background-position: center center;
+        padding: 5rem 4rem;
+    }
+    
+    .travel-info h1 {
+        font-size: 2.5rem;
+    }
+    
+    .travel-info p {
+        width: 80%;
+        margin: 1rem auto 2.5rem;
+    }
+    
+    .travel-info .search-place {
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .travel-info .search-place input, select {
+        padding: 1rem;
+        width: 20%;
+        font-size: 1rem;
+    }
+    
+    .travel-info .search-place button{
+        width: 25%;
+    }
 }
 
 /* Responsive for extra medium devices */
@@ -248,5 +276,33 @@ select {
 
     nav li {
         padding: 0.5rem 1.2rem;
+    }
+    .travel-info {
+        background-position: center center;
+        padding: 5rem 4rem;
+    }
+    
+    .travel-info h1 {
+        font-size: 2.5rem;
+    }
+    
+    .travel-info p {
+        width: 80%;
+        margin: 1rem auto 2.5rem;
+    }
+    
+    .travel-info .search-place {
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .travel-info .search-place input, select {
+        padding: 1rem;
+        width: 20%;
+        font-size: 1rem;
+    }
+    
+    .travel-info .search-place button{
+        width: 25%;
     }
 }
