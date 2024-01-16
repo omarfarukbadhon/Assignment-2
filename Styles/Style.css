@@ -495,17 +495,18 @@ main {
     border: none;
 }
 
-.contact input[type="text"], input[type="email"]{
+.contact input[type="text"],
+input[type="email"] {
     width: 94%;
 }
 
-.contact input[type="button"]{
+.contact input[type="button"] {
     width: 100%;
     background-color: #FF5400;
     color: white;
 }
 
-.contact .image{
+.contact .image {
     background-image: url('../Images/Rectangle\ 8\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -513,22 +514,23 @@ main {
     padding: 200px 0 100px 500px;
 }
 
-.contact .image .offer{
+.contact .image .offer {
     background-color: #FF5400;
     padding: 1.5rem 6rem;
     border-radius: 16px;
     transform: rotate(-40deg);
 }
 
-.contact .image p{
+.contact .image p {
     color: white;
     text-align: center;
 }
 
-.contact .image .travel{
+.contact .image .travel {
     margin-bottom: 5px;
 }
-.contact .image .save{
+
+.contact .image .save {
     font-weight: 800;
 }
 
@@ -720,6 +722,26 @@ main {
 
     .simple .content ul {
         padding-left: 10px;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact .image {
+        background-size: 100%;
+        background-position: center;
+        padding: 180px 0 85px 210px;
+    }
+
+    .contact .image .offer {
+        padding: 3px 6px;
+        transform: rotate(-40deg);
+    }
+
+    .contact .image .travel {
+        margin-bottom: 5px;
     }
 }
 
