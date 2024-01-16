@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+p{
+    text-align: justify;
+}
+
 
 /* Header Style */
 
@@ -453,7 +457,7 @@ main {
 
 .simple iframe {
     border-radius: 15px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* Style Contact section */
@@ -775,6 +779,10 @@ footer hr{
 
     .simple .content ul {
         padding-left: 10px;
+    }
+
+    .simple iframe {
+        width: 100%;
     }
 
     .contact {
