@@ -355,16 +355,18 @@ main {
     backdrop-filter: blur(2.5px);
     width: 40%;
     padding: 3rem;
-    
+
 }
 
-.discount .tour-place .one{
+.discount .tour-place .one {
     margin-left: 700px;
 }
-.discount .tour-place .two{
+
+.discount .tour-place .two {
     margin-left: 200px;
 }
-.discount .tour-place .three{
+
+.discount .tour-place .three {
     margin-left: 700px;
 }
 
@@ -408,7 +410,7 @@ main {
     margin-bottom: 1rem;
 }
 
-.discount .button{
+.discount .button {
     margin-left: 750px;
 }
 
@@ -420,29 +422,29 @@ main {
     justify-content: space-between;
 }
 
-.simple .content{
+.simple .content {
     width: 45%;
 }
 
-.simple .content h1{
+.simple .content h1 {
     font-size: 2.6rem;
     font-weight: var(--font-weight800);
     color: var(--black);
 }
 
-.simple .content p{
+.simple .content p {
     color: var(--bluish_gray);
     margin: 1.2rem auto;
     line-height: 1.5rem;
 }
 
-.simple .content ul{
+.simple .content ul {
     list-style-position: inside;
     padding-left: 10px;
     margin-bottom: 1.5rem;
 }
 
-.simple .content li{
+.simple .content li {
     color: var(--black);
     margin-bottom: 1rem;
     line-height: 1.5rem;
@@ -452,6 +454,82 @@ main {
 .simple iframe {
     border-radius: 15px;
     width: 100%;
+}
+
+/* Style Contact section */
+
+.contact {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-form {
+    border: 2px solid #FF5400;
+    border-radius: 15px;
+    padding: 2.5rem;
+}
+
+.contact .contact-form h1 {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight800);
+    color: var(--black);
+}
+
+.contact .contact-form p {
+    color: var(--paragraph_black);
+    margin: 1.2rem auto;
+}
+
+.contact hr {
+    margin: 0 auto 1.5rem;
+    height: 1px;
+    background-color: rgb(235, 235, 235);
+}
+
+.contact input {
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.contact input[type="text"], input[type="email"]{
+    width: 94%;
+}
+
+.contact input[type="button"]{
+    width: 100%;
+    background-color: #FF5400;
+    color: white;
+}
+
+.contact .image{
+    background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 100px 500px;
+}
+
+.contact .image .offer{
+    background-color: #FF5400;
+    padding: 1.5rem 6rem;
+    border-radius: 16px;
+    transform: rotate(-40deg);
+}
+
+.contact .image p{
+    color: white;
+    text-align: center;
+}
+
+.contact .image .travel{
+    margin-bottom: 5px;
+}
+.contact .image .save{
+    font-weight: 800;
 }
 
 /* Responsive for mobile devices */
@@ -572,37 +650,39 @@ main {
     .reason .card p {
         width: 90%;
     }
-    
+
     .discount h1 {
         font-size: 1.8rem;
     }
-    
+
     .discount .choose {
         width: 100%;
     }
-    
+
     .discount .tour-place {
         padding-top: 10rem;
         padding-bottom: 1rem;
         margin-bottom: 1.5rem;
     }
-    
+
     .discount .tour-place .mars {
         width: 70%;
         padding: 1.5rem;
-        
+
     }
-    
-    .discount .tour-place .one{
+
+    .discount .tour-place .one {
         margin-left: 30px;
     }
-    .discount .tour-place .two{
+
+    .discount .tour-place .two {
         margin-left: 30px;
     }
-    .discount .tour-place .three{
+
+    .discount .tour-place .three {
         margin-left: 30px;
     }
-    
+
     .discount .tour-place .time-place {
         flex-wrap: wrap;
         gap: 1.5rem;
@@ -611,33 +691,34 @@ main {
     .discount .time-place .day {
         margin-bottom: 0.5rem;
     }
-    
+
     .discount .time-place h2 {
         font-size: 1rem;
     }
-    
+
     .discount .tour-place .price {
         font-size: 0.7rem;
     }
-    
-    .discount .button{
+
+    .discount .button {
         margin-left: 80px;
     }
+
     .simple {
         flex-direction: column;
         gap: 1.5rem;
         margin: 1rem auto;
     }
-    
-    .simple .content{
+
+    .simple .content {
         width: 90%;
     }
-    
-    .simple .content h1{
+
+    .simple .content h1 {
         font-size: 1.8rem;
     }
-    
-    .simple .content ul{
+
+    .simple .content ul {
         padding-left: 10px;
     }
 }
@@ -747,26 +828,29 @@ main {
     .reason .card p {
         width: 90%;
     }
+
     .discount .choose {
         width: 90%;
     }
-    
+
     .discount .tour-place .mars {
         width: 40%;
         padding: 2.5rem;
     }
-    
-    .discount .tour-place .one{
+
+    .discount .tour-place .one {
         margin-left: 400px;
     }
-    .discount .tour-place .two{
+
+    .discount .tour-place .two {
         margin-left: 100px;
     }
-    .discount .tour-place .three{
+
+    .discount .tour-place .three {
         margin-left: 400px;
     }
-    
-    .discount .button{
+
+    .discount .button {
         margin-left: 400px;
     }
 }
@@ -852,27 +936,29 @@ main {
     .reason .card p {
         width: 90%;
     }
-    
+
     .discount .choose {
         width: 90%;
     }
-    
+
     .discount .tour-place .mars {
         width: 40%;
         padding: 2.5rem;
     }
-    
-    .discount .tour-place .one{
+
+    .discount .tour-place .one {
         margin-left: 500px;
     }
-    .discount .tour-place .two{
+
+    .discount .tour-place .two {
         margin-left: 150px;
     }
-    .discount .tour-place .three{
+
+    .discount .tour-place .three {
         margin-left: 500px;
     }
-    
-    .discount .button{
+
+    .discount .button {
         margin-left: 500px;
     }
 }
