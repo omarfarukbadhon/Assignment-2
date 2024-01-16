@@ -527,6 +527,22 @@ main {
         width: 50%;
         height: 250px;
     }
+    
+    .reason h1 {
+        font-size: 2rem;
+    }
+    
+    .reason .choose {
+        width: 90%;
+    }
+    
+    .reason .card {
+        padding: 2rem 1rem;
+    }
+    
+    .reason .card p {
+        width: 90%;
+    }
 }
 
 /* Responsive for extra medium devices */
@@ -605,5 +621,8 @@ main {
 
     .destination p {
         width: 80%;
+    }
+    .reason .card p {
+        width: 90%;
     }
 }
