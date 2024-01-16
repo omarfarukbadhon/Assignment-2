@@ -317,6 +317,83 @@ main {
     text-align: justify;
 }
 
+/* Discount Section Style */
+
+.discount {
+    margin: 5rem auto;
+}
+
+.discount h1 {
+    font-size: 2.6rem;
+    color: var(--black);
+    font-weight: var(--font-weight800);
+    text-align: center;
+}
+
+.discount .choose {
+    color: var(--paragraph_black);
+    margin: 2rem auto;
+    text-align: center;
+    width: 60%;
+}
+
+.discount .tour-place {
+    position: relative;
+    width: 71.1%;
+    margin: 0 auto 1.5rem;
+}
+
+.discount .tour-place .mars {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 40%;
+    position: absolute;
+    top: 3.5rem;
+    right: 3.5rem;
+    padding: 3.3rem;
+}
+
+.discount .tour-place .time-place{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: start;
+}
+
+.discount .time-place .day{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.discount .time-place p{
+    color: var(--bluish_gray);
+}
+
+.discount .time-place i{
+    color: #FF5400;
+    font-size: 1.2rem;
+}
+
+.discount .time-place h2{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.discount .tour-place .place-description{ 
+    margin-top: 1rem;
+}
+
+.discount .tour-place .price{
+    color: #FF5400;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* Responsive for mobile devices */
 @media screen and (max-width: 600px) {
@@ -407,32 +484,32 @@ main {
         width: 100%;
         height: 250px;
     }
-    
+
     .reason h1 {
         font-size: 1.8rem;
     }
-    
+
     .reason .choose {
         width: 90%;
     }
-    
+
     .reason .services {
         flex-direction: column;
     }
-    
+
     .reason .card {
         width: 90%;
         padding: 2rem 1rem;
     }
-    
+
     .reason .card img {
         width: 15%;
     }
-    
+
     .reason .card h2 {
         font-size: 1.5rem;
     }
-    
+
     .reason .card p {
         width: 90%;
     }
@@ -527,19 +604,19 @@ main {
         width: 50%;
         height: 250px;
     }
-    
+
     .reason h1 {
         font-size: 2rem;
     }
-    
+
     .reason .choose {
         width: 90%;
     }
-    
+
     .reason .card {
         padding: 2rem 1rem;
     }
-    
+
     .reason .card p {
         width: 90%;
     }
@@ -622,6 +699,7 @@ main {
     .destination p {
         width: 80%;
     }
+
     .reason .card p {
         width: 90%;
     }
