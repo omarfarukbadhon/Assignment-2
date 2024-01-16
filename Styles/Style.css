@@ -534,6 +534,59 @@ input[type="email"] {
     font-weight: 800;
 }
 
+/* Footer section style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 8rem;
+}
+
+footer > div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--black);
+    text-align: center;
+}
+
+footer h2 span {
+    color: var(--orange);
+}
+
+footer p{
+    width: 70%;
+    color: var(--paragraph_black);
+    line-height: 1.5rem;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+footer .icon{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .icon i{
+    font-size: 2rem;
+    color: #FF5400;
+}
+
+footer hr{
+    width: 80%;
+    height: 1px;
+    margin: 2rem auto 1rem;
+    background-color: #5A5A5D;
+}
+
+
+
 /* Responsive for mobile devices */
 @media screen and (max-width: 600px) {
     header {
@@ -982,5 +1035,10 @@ input[type="email"] {
 
     .discount .button {
         margin-left: 500px;
+    }
+    .contact .image {
+        background-size: cover;
+        background-position: center;
+        padding: 280px 0 85px 310px;
     }
 }
