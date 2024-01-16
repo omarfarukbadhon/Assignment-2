@@ -342,7 +342,7 @@ main {
     background: url('../Images/Group\ 39.png'), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     padding-top: 10rem;
     padding-bottom: 10rem;
     margin-bottom: 1.5rem;
@@ -406,6 +406,10 @@ main {
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.discount .button{
+    margin-left: 750px;
 }
 
 /* Responsive for mobile devices */
@@ -526,40 +530,57 @@ main {
     .reason .card p {
         width: 90%;
     }
-
-    /* .discount h1 {
+    
+    .discount h1 {
         font-size: 1.8rem;
     }
     
     .discount .choose {
-        width: 90%;
+        width: 100%;
     }
     
     .discount .tour-place {
-        width: 90%;
-    }
-
-    .discount .tour-place img{
-        width: 90%;
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
     
     .discount .tour-place .mars {
-        width: 90%;
+        width: 70%;
         padding: 1.5rem;
+        
     }
     
-    .discount .tour-place .time-place{
+    .discount .tour-place .one{
+        margin-left: 30px;
+    }
+    .discount .tour-place .two{
+        margin-left: 30px;
+    }
+    .discount .tour-place .three{
+        margin-left: 30px;
+    }
+    
+    .discount .tour-place .time-place {
         flex-wrap: wrap;
         gap: 1.5rem;
     }
+
+    .discount .time-place .day {
+        margin-bottom: 0.5rem;
+    }
     
-    .discount .time-place h2{
+    .discount .time-place h2 {
         font-size: 1rem;
     }
     
-    .discount .tour-place .place-description{ 
-        margin-top: 1rem;
-    } */
+    .discount .tour-place .price {
+        font-size: 0.7rem;
+    }
+    
+    .discount .button{
+        margin-left: 80px;
+    }
 }
 
 
