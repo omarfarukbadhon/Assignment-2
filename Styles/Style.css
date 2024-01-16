@@ -796,6 +796,34 @@ footer hr{
     .contact .image .travel {
         margin-bottom: 5px;
     }
+    footer{
+        padding: 2rem 1rem;
+    }
+    
+    footer > div{
+        gap: 0.3rem;
+    }
+    
+    footer h2 {
+        font-size: 1.5rem;
+    }
+    
+    footer p{
+        width: 90%;
+    }
+    
+    footer .icon{
+        gap: 0.8rem;
+    }
+    
+    footer .icon i{
+        font-size: 2rem;
+        color: #FF5400;
+    }
+    
+    footer hr{
+        width: 90%;
+    }
 }
 
 
