@@ -27,6 +27,7 @@
     border: none;
     color: white;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 
@@ -105,6 +106,7 @@ nav li:hover a {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     margin-top: 3rem;
     padding: 10rem 15rem;
     border-radius: 16px;
@@ -156,6 +158,51 @@ select {
     align-items: center;
     justify-content: center;
     width: 20%;
+}
+
+/* main section style */
+main{
+    padding: 1rem 8rem 5rem;
+}
+
+/* Popular Tour Section style */
+
+.popular_tour{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.tour-content h1{
+    font-size: 2.6rem;
+    font-weight: var(--font-weight800);
+    color: var(--black);
+}
+
+.tour-content p{
+    color: var(--bluish_gray);
+    margin: 1.5rem auto;
+    text-align: left;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.tour-content ul li{
+    list-style-position: inside;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.tour-image{
+    width: 100%;
+}
+
+.tour-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
 
 /* Responsive for mobile devices */
