@@ -412,6 +412,47 @@ main {
     margin-left: 750px;
 }
 
+/* Simple Section style */
+
+.simple {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple .content{
+    width: 45%;
+}
+
+.simple .content h1{
+    font-size: 2.6rem;
+    font-weight: var(--font-weight800);
+    color: var(--black);
+}
+
+.simple .content p{
+    color: var(--bluish_gray);
+    margin: 1.2rem auto;
+    line-height: 1.5rem;
+}
+
+.simple .content ul{
+    list-style-position: inside;
+    padding-left: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.simple .content li{
+    color: var(--black);
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    font-weight: var(--font-weight800);
+}
+
+.simple iframe {
+    border-radius: 15px;
+}
+
 /* Responsive for mobile devices */
 @media screen and (max-width: 600px) {
     header {
