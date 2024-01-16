@@ -451,6 +451,7 @@ main {
 
 .simple iframe {
     border-radius: 15px;
+    width: 100%;
 }
 
 /* Responsive for mobile devices */
@@ -621,6 +622,23 @@ main {
     
     .discount .button{
         margin-left: 80px;
+    }
+    .simple {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 1rem auto;
+    }
+    
+    .simple .content{
+        width: 90%;
+    }
+    
+    .simple .content h1{
+        font-size: 1.8rem;
+    }
+    
+    .simple .content ul{
+        padding-left: 10px;
     }
 }
 
