@@ -338,9 +338,14 @@ main {
 }
 
 .discount .tour-place {
-    position: relative;
-    width: 71.1%;
-    margin: 0 auto 1.5rem;
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    margin-bottom: 1.5rem;
 }
 
 .discount .tour-place .mars {
@@ -349,20 +354,28 @@ main {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     width: 40%;
-    position: absolute;
-    top: 3.5rem;
-    right: 3.5rem;
-    padding: 3.3rem;
+    padding: 3rem;
+    
 }
 
-.discount .tour-place .time-place{
+.discount .tour-place .one{
+    margin-left: 700px;
+}
+.discount .tour-place .two{
+    margin-left: 200px;
+}
+.discount .tour-place .three{
+    margin-left: 700px;
+}
+
+.discount .tour-place .time-place {
     display: flex;
     gap: 1.5rem;
     align-items: center;
     justify-content: start;
 }
 
-.discount .time-place .day{
+.discount .time-place .day {
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -370,25 +383,25 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.discount .time-place p{
+.discount .time-place p {
     color: var(--bluish_gray);
 }
 
-.discount .time-place i{
+.discount .time-place i {
     color: #FF5400;
     font-size: 1.2rem;
 }
 
-.discount .time-place h2{
+.discount .time-place h2 {
     font-size: 1.5rem;
     text-align: left;
 }
 
-.discount .tour-place .place-description{ 
+.discount .tour-place .place-description {
     margin-top: 1rem;
 }
 
-.discount .tour-place .price{
+.discount .tour-place .price {
     color: #FF5400;
     font-size: 1.2rem;
     margin-top: 1rem;
@@ -513,6 +526,40 @@ main {
     .reason .card p {
         width: 90%;
     }
+
+    /* .discount h1 {
+        font-size: 1.8rem;
+    }
+    
+    .discount .choose {
+        width: 90%;
+    }
+    
+    .discount .tour-place {
+        width: 90%;
+    }
+
+    .discount .tour-place img{
+        width: 90%;
+    }
+    
+    .discount .tour-place .mars {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    
+    .discount .tour-place .time-place{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .discount .time-place h2{
+        font-size: 1rem;
+    }
+    
+    .discount .tour-place .place-description{ 
+        margin-top: 1rem;
+    } */
 }
 
 
