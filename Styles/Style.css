@@ -688,6 +688,28 @@ main {
     .reason .card p {
         width: 90%;
     }
+    .discount .choose {
+        width: 90%;
+    }
+    
+    .discount .tour-place .mars {
+        width: 40%;
+        padding: 2.5rem;
+    }
+    
+    .discount .tour-place .one{
+        margin-left: 400px;
+    }
+    .discount .tour-place .two{
+        margin-left: 100px;
+    }
+    .discount .tour-place .three{
+        margin-left: 400px;
+    }
+    
+    .discount .button{
+        margin-left: 400px;
+    }
 }
 
 /* Responsive for extra medium devices */
@@ -770,5 +792,28 @@ main {
 
     .reason .card p {
         width: 90%;
+    }
+    
+    .discount .choose {
+        width: 90%;
+    }
+    
+    .discount .tour-place .mars {
+        width: 40%;
+        padding: 2.5rem;
+    }
+    
+    .discount .tour-place .one{
+        margin-left: 500px;
+    }
+    .discount .tour-place .two{
+        margin-left: 150px;
+    }
+    .discount .tour-place .three{
+        margin-left: 500px;
+    }
+    
+    .discount .button{
+        margin-left: 500px;
     }
 }
