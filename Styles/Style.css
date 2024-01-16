@@ -152,7 +152,7 @@ select {
     color: rgba(19, 19, 24, 0.50);
 }
 
-.travel-info .search-place button{
+.travel-info .search-place button {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -161,25 +161,25 @@ select {
 }
 
 /* main section style */
-main{
+main {
     padding: 1rem 8rem 5rem;
 }
 
 /* Popular Tour Section style */
 
-.popular_tour{
+.popular_tour {
     display: flex;
     justify-content: space-between;
     gap: 10rem;
 }
 
-.tour-content h1{
+.tour-content h1 {
     font-size: 2.6rem;
     font-weight: var(--font-weight800);
     color: var(--black);
 }
 
-.tour-content p{
+.tour-content p {
     color: var(--bluish_gray);
     margin: 1.5rem auto;
     text-align: left;
@@ -187,7 +187,7 @@ main{
     text-align: justify;
 }
 
-.tour-content ul li{
+.tour-content ul li {
     list-style-position: inside;
     margin-bottom: 1rem;
     line-height: 1.5rem;
@@ -195,11 +195,11 @@ main{
     padding: 0 10px;
 }
 
-.tour-image{
+.tour-image {
     width: 100%;
 }
 
-.tour-image img{
+.tour-image img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -207,18 +207,18 @@ main{
 
 /* Destination section style */
 
-.destination{
+.destination {
     margin: 5rem auto 3rem;
 }
 
-.destination h1{
+.destination h1 {
     color: var(--black);
     font-weight: var(--font-weight800);
     font-size: 2.6rem;
     text-align: center;
 }
 
-.destination p{
+.destination p {
     color: var(--bluish_gray);
     line-height: 1.5rem;
     text-align: center;
@@ -233,6 +233,7 @@ main{
     justify-content: center;
     margin-bottom: 1.5rem;
 }
+
 .destination .second {
     display: flex;
     gap: 1.5rem;
@@ -240,12 +241,82 @@ main{
     justify-content: center;
     margin-bottom: 1.5rem;
 }
+
 .destination .third {
     display: flex;
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
 }
+
+/* Style for reason Section */
+
+.reason {
+    margin: 5rem auto 3rem;
+}
+
+.reason h1 {
+    font-size: 2.6rem;
+    font-weight: var(--font-weight800);
+    color: var(--black);
+    text-align: center;
+}
+
+.reason .choose {
+    margin: 1rem auto 3rem;
+    color: var(--paragraph_black);
+    text-align: center;
+    width: 60%;
+}
+
+.reason .services {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason .one {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.reason .two {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.reason .three {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.reason .card {
+    width: 40%;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: left;
+}
+
+.reason .card img {
+    width: 10%;
+}
+
+.reason .card h2 {
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: var(--font-weight800);
+    margin: 2rem 0 1rem;
+}
+
+.reason .card p {
+    color: var(--bluish_gray);
+    line-height: 1.5rem;
+    width: 80%;
+    text-align: justify;
+}
+
 
 /* Responsive for mobile devices */
 @media screen and (max-width: 600px) {
@@ -264,26 +335,27 @@ main{
     nav .title i {
         display: inline-block;
     }
+
     .travel-info {
         background-position: center center;
         padding: 2rem 1rem;
     }
-    
+
     .travel-info h1 {
         font-size: 1.3rem;
     }
-    
+
     .travel-info p {
         width: 100%;
         margin: 1rem auto 2rem;
     }
-    
+
     .travel-info .search-place {
         flex-direction: column;
         gap: 1.5rem;
         padding: 1rem;
     }
-    
+
     .travel-info .search-place select {
         padding: 1rem;
         width: 90%;
@@ -295,38 +367,43 @@ main{
         width: 80%;
         font-size: 1rem;
     }
-    
-    .travel-info .search-place button{
+
+    .travel-info .search-place button {
         width: 90%;
     }
-    main{
+
+    main {
         padding: 1rem 1rem;
     }
-    .popular_tour{
+
+    .popular_tour {
         flex-direction: column;
         gap: 2rem;
     }
-    
-    .tour-content h1{
+
+    .tour-content h1 {
         font-size: 1.8rem;
     }
-    
-    .tour-content p{
+
+    .tour-content p {
         margin: 1rem auto;
     }
-    
-    .destination h1{
+
+    .destination h1 {
         font-size: 1.8rem;
     }
-    
-    .destination p{
+
+    .destination p {
         width: 90%;
     }
-    
-    .destination .destination-gallery .first, .second, .third{
+
+    .destination .destination-gallery .first,
+    .second,
+    .third {
         flex-direction: column;
     }
-    .destination .destination-gallery img{
+
+    .destination .destination-gallery img {
         width: 100%;
         height: 250px;
     }
@@ -350,66 +427,74 @@ main{
     nav li {
         padding: 0.5rem 1.2rem;
     }
+
     .travel-info {
         background-position: center center;
         padding: 5rem 4rem;
     }
-    
+
     .travel-info h1 {
         font-size: 2.5rem;
     }
-    
+
     .travel-info p {
         width: 80%;
         margin: 1rem auto 2.5rem;
     }
-    
+
     .travel-info .search-place {
         gap: 1.5rem;
         padding: 1rem;
     }
-    
-    .travel-info .search-place input, select {
+
+    .travel-info .search-place input,
+    select {
         padding: 1rem;
         width: 20%;
         font-size: 1rem;
     }
-    
-    .travel-info .search-place button{
+
+    .travel-info .search-place button {
         width: 25%;
     }
-    main{
+
+    main {
         padding: 1rem 2rem;
     }
-    .popular_tour{
+
+    .popular_tour {
         gap: 3rem;
     }
-    
-    .tour-content h1{
+
+    .tour-content h1 {
         font-size: 2rem;
     }
-    
-    .tour-image{
+
+    .tour-image {
         width: 100%;
     }
-    
-    .tour-image img{
+
+    .tour-image img {
         width: 100%;
         height: 60%;
         border-radius: 15px;
     }
-    .destination h1{
+
+    .destination h1 {
         font-size: 2rem;
     }
-    
-    .destination p{
+
+    .destination p {
         width: 90%;
     }
-    .destination .destination-gallery .second img{
+
+    .destination .destination-gallery .second img {
         width: 30%;
         height: 250px;
     }
-    .destination .destination-gallery .first img, .third img{
+
+    .destination .destination-gallery .first img,
+    .third img {
         width: 50%;
         height: 250px;
     }
@@ -432,59 +517,64 @@ main{
     nav li {
         padding: 0.5rem 1.2rem;
     }
+
     .travel-info {
         background-position: center center;
         padding: 5rem 4rem;
     }
-    
+
     .travel-info h1 {
         font-size: 2.5rem;
     }
-    
+
     .travel-info p {
         width: 80%;
         margin: 1rem auto 2.5rem;
     }
-    
+
     .travel-info .search-place {
         gap: 1.5rem;
         padding: 1rem;
     }
-    
-    .travel-info .search-place input, select {
+
+    .travel-info .search-place input,
+    select {
         padding: 1rem;
         width: 20%;
         font-size: 1rem;
     }
-    
-    .travel-info .search-place button{
+
+    .travel-info .search-place button {
         width: 25%;
     }
-    main{
+
+    main {
         padding: 1rem 2.5rem;
     }
-    .popular_tour{
+
+    .popular_tour {
         gap: 3rem;
     }
-    
-    .tour-content h1{
+
+    .tour-content h1 {
         font-size: 2.4rem;
     }
-    
-    .tour-image{
+
+    .tour-image {
         width: 100%;
     }
-    
-    .tour-image img{
+
+    .tour-image img {
         width: 100%;
-        height: 60%;
+        height: 100%;
         border-radius: 15px;
     }
-    .destination h1{
+
+    .destination h1 {
         font-size: 2.6rem;
     }
-    
-    .destination p{
+
+    .destination p {
         width: 80%;
     }
 }
